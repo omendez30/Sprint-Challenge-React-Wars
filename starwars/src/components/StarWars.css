@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Pathway+Gothic+One")
+/* @import url("https://fonts.googleapis.com/css?family=Pathway+Gothic+One") */
 .characterList {
   background: url("https://cdn.shapechef.com/blog/stars.png");
   position: relative;
@@ -35,5 +35,5 @@
 .character-name {
   font-weight: bold;
   font-size: 60px;
-  font-family: "Pathway Gothic One", sans-serif;
+  /* font-family: "Pathway Gothic One", sans-serif; */
 }
