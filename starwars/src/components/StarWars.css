@@ -3,6 +3,7 @@
   position: relative;
   top: -15px;
   transform-origin: 100% 50%;
+  overflow: hidden;
 }
 @keyframes list {
   0% {
@@ -13,6 +14,7 @@
   100% {
     top: -6000px;
     transform: rotateX(20deg) translateZ(0);
+    /* opacity: 0; */
   }
 }
 /* .fade {
@@ -27,6 +29,7 @@
   padding: 10px;
   color: #ffd700;
   animation: list 60s linear;
+  /* position: relative; */
 }
 .character-name {
   font-weight: bold;
