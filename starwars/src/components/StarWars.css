@@ -1,0 +1,25 @@
+.characterList {
+  background: url("https://cdn.shapechef.com/blog/stars.png");
+  position: relative;
+  top: -15px;
+  transform-origin: 100% 50%;
+}
+@keyframes list {
+  0% {
+    top: 60px;
+    transform: rotateX(25deg) translateZ(-2500px);
+  }
+  100% {
+    top: -6000px;
+    transform: rotateX(20deg) translateZ(0);
+  }
+}
+.character {
+  padding: 10px;
+  color: #ffd700;
+  animation: list 60s linear;
+}
+.character-name {
+  font-weight: bold;
+  font-size: 40px;
+}

@@ -4,7 +4,7 @@ import Character from "./Character";
 
 function CharacterList(props) {
   return (
-    <div>
+    <div className="characterList">
       {props.characters.map(character => (
         <Character character={character} key={character.created} />
       ))}
