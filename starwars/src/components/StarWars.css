@@ -9,6 +9,7 @@
     top: 60px;
     transform: rotateX(25deg) translateZ(-2500px);
   }
+
   100% {
     top: -6000px;
     transform: rotateX(20deg) translateZ(0);

@@ -3,7 +3,7 @@ import "./StarWars.css";
 const Character = props => {
   return (
     <div className="character">
-      <div className="fade" />
+      {/* <div className="fade" /> */}
       <div className="character-name">{props.character.name}</div>
 
       <div className="character-data">Gender: {props.character.gender}</div>
